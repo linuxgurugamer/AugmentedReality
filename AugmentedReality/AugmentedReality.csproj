@@ -70,10 +70,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>start /D D:\Users\jbb\github\AugmentedReality\Hooligan_Labs /WAIT deploy.bat
+    <PostBuildEvent>start /D D:\Users\jbb\github\AugmentedReality /WAIT deploy.bat
 
 if $(ConfigurationName) == Release (
-start /D D:\Users\jbb\github\AugmentedReality\Hooligan_Labs  /WAIT buildRelease.bat
+start /D D:\Users\jbb\github\AugmentedReality /WAIT buildRelease.bat
 )
 </PostBuildEvent>
   </PropertyGroup>
