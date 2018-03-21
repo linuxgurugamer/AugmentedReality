@@ -1,11 +1,16 @@
 {
   "NAME": "AugmentedReality",
-  "URL": "http://ksp-avc.cybutek.net/version.php?id=469",
+  "URL": "https://raw.githubusercontent.com/linuxgurugamer/AugmentedReality/master/AugmentedReality.version",
+    "DOWNLOAD" : "https://github.com/linuxgurugamer/AugmentedReality/releases",
+  "GITHUB" : {
+    "USERNAME" : "linuxgurugamer",
+    "REPOSITORY" : "AugmentedReality"
+  },
   "VERSION": {
     "MAJOR": 0,
     "MINOR": 2,
     "PATCH": 1,
-    "BUILD": 1
+    "BUILD": 2
   },
   "KSP_VERSION": {
     "MAJOR": 1,
