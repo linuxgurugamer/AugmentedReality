@@ -6,3 +6,6 @@ For KSP, project an arrow from your ship to the targeted docking port
 
 0.2.1.2
 	Updated for 1.4.1
+
+0.2.1.4
+	Updated version info
