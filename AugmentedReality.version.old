@@ -1,10 +1,10 @@
 {
   "NAME": "AugmentedReality",
   "URL": "http://ksp.spacetux.net/avc/AugmentedReality",
-    "DOWNLOAD" : "https://github.com/linuxgurugamer/AugmentedReality/releases",
-  "GITHUB" : {
-    "USERNAME" : "linuxgurugamer",
-    "REPOSITORY" : "AugmentedReality"
+  "DOWNLOAD": "https://github.com/linuxgurugamer/AugmentedReality/releases",
+  "GITHUB": {
+    "USERNAME": "linuxgurugamer",
+    "REPOSITORY": "AugmentedReality"
   },
   "VERSION": {
     "MAJOR": 0,
@@ -21,10 +21,5 @@
     "MAJOR": 1,
     "MINOR": 5,
     "PATCH": 1
-  },
-  "KSP_VERSION_MAX": {
-    "MAJOR": 1,
-    "MINOR": 5,
-    "PATCH": 99
   }
 }
