@@ -106,16 +106,20 @@ namespace HL_AR_Dock
 
         private void makeLineRenderers(LineRenderer lR, float start, float end)
         {
-            lR.material = new Material(Shader.Find("Particles/Additive"));
+            lR.material = new Material(Shader.Find("Legacy Shaders/Particles/Additive"));
             lR.SetPosition(0, Vector3.zero);
             lR.SetPosition(1, Vector3.zero);
-            lR.SetWidth(start, end);
+            lR.startWidth = start;
+            lR.endWidth = end;
+            //lR.SetWidth(start, end);
         }
 
         private void setLineColors(LineRenderer lR, Color c)
         {
             Color cFade = new Color(c.r, c.g, c.b, 0f);
-            lR.SetColors(cFade, c);
+            lR.startColor = cFade;
+            lR.endColor = c;
+            //lR.SetColors(cFade, c);
         }
 
         public override void OnUpdate()
