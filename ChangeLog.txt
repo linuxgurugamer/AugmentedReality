@@ -45,3 +45,6 @@ ChangeLog
 	Fixed shader
 	Replaced obsolete code
 
+0.2.2.5
+	Added AssemblyFileVersion
+	Updated version file for 1.12
